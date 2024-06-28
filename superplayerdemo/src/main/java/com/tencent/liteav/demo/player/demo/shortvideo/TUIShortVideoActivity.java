@@ -25,22 +25,11 @@ public class TUIShortVideoActivity extends AppCompatActivity implements  ShortVi
 
     private static final String TAG = "ShortVideoDemo:TUIShortVideoActivity";
 
-    private static final String LICENCE_URL =
-            "https://license.vod2.myqcloud.com/license/v2/1320533874_1/v_cube.license";
-    private static final String LICENCE_KEY = "bda5a07e6355f4151fddec8a2ca3f70e";
-
     private ShortVideoFragment mPlayFragment;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        // set status background to black
-        TUIPlayerConfig config = new TUIPlayerConfig.Builder()
-                .enableLog(true)
-                .licenseKey(LICENCE_KEY)
-                .licenseUrl(LICENCE_URL)
-                .build();
-        TUIPlayerCore.init(getApplicationContext(), config);
         // copy superResolution resource
         String destPath = getCacheDir().getAbsolutePath() + "/sr_resource";
         File file = new File(destPath);
