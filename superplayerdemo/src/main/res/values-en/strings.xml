@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="superplayer_app_name">Superplayer</string>
+    <string name="superplayer_cache_name">offline download</string>
+    <string name="superplayer_cancel">Cancel</string>
+    <string name="superplayer_ok">OK</string>
+    <string name="superplayer_vod_ffplay">ffplay</string>
+    <string name="superplayer_vod_exo">exo</string>
+    <string name="superplayer_scancode_tip">Invalid playback URL. Check the QR code.</string>
+    <string name="superplayer_small_video_special_effects_editing">UGSV - Special Effects</string>
+    <string name="superplayer_set_appid_fileid">Set AppID, FileID and PSign</string>
+    <string name="superplayer_set_play_url">Set Playback URL</string>
+    <string name="superplayer_input_correct_appid">Enter a valid AppID.</string>
+    <string name="superplayer_input_correct_fileid">Enter a valid FileID.</string>
+    <string name="superplayer_input_correct_play_url">Enter a valid playback URL.</string>
+    <string name="superplayer_request_fail">Failed to request FileID.</string>
+    <string name="superplayer_definition_super">FHD</string>
+    <string name="superplayer_definition_high">HD</string>
+    <string name="superplayer_definition_standard">SD</string>
+    <string name="superplayer_test_video">Test Video</string>
+    <string name="superplayer_flv_live_video">FLV Live Play</string>
+    <string name="superplayer_rtmp_live_video">RTMP Live Play</string>
+    <string name="superplayer_webrtc_live_video">WebRTC Live Play</string>
+    <string name="superplayer_hls_live_video">HLS Live Play</string>
+    <string name="superplayer_fetch_upload_list_video_fail">Failed to obtain the list of uploaded videos.</string>
+    <string name="superplayer_speed_rate">Speed</string>
+    <string name="superplayer_please_scan_qrcode">Enter a playback URL or scan QR code.</string>
+    <string name="superplayer_back">Back</string>
+    <string name="superplayer_resolution_normal">Original</string>
+    <string name="superplayer_resolution_low">Smooth</string>
+    <string name="superplayer_open_hardware_speedup">Hardware acceleration enabled. The playback will restart.</string>
+    <string name="superplayer_close_hardware_speedup">Hardware acceleration disabled. The playback will restart.</string>
+    <string name="superplayer_not_play_url">No playback URL.</string>
+    <string name="superplayer_vip_title">Try function demo </string>
+    <string name="superplayer_vip_watch_tip">You can try it for %ss, open VIP to watch the full video</string>
+    <string name="superplayer_cover_video_name">Custom cover presentation</string>
+    <string name="superplayer_dynamic_watermark_title">Dynamic watermark demo</string>
+    <string name="superplayer_dynamic_watermark_tip">shipinyun</string>
+    <string name="superplayer_cover_title">Custom cover presentation</string>
+    <string name="superplayer_offline_cache_title">Offline download（Fullscreen）demo</string>
+    <string name="superplayer_carousel_list_title">Video list carousel demo</string>
+
+    <string name="superplayer_cache_progress">progress：%1$d%%</string>
+    <string name="superplayer_cache_video_size">MB</string>
+    <string name="superplayer_cache_state_cacheing">downloading</string>
+    <string name="superplayer_cache_state_pause">pause</string>
+    <string name="superplayer_cache_state_error">error</string>
+    <string name="superplayer_cache_state_finish">complete</string>
+
+    <string name="superplayer_hint">Tip</string>
+    <string name="superplayer_delete_video_confirm">Are you sure you want to delete this video</string>
+    <string name="superplayer_delete_success">Deleted successfully</string>
+    <string name="superplayer_delete_failed">Deleted failed</string>
+    <string name="superplayer_cahche_empty">No data</string>
+    <string name="superplayer_net_error">The network is abnormal. Please try again later</string>
+
+    <string name="superplayer_live_list">Live</string>
+    <string name="superplayer_vod_list">VOD</string>
+
+    <string name="vod_player">VOD player</string>
+    <string name="short_video_i_know">I see</string>
+    <string name="super_player_up_and_down_bright">Swipe up and down to adjust screen brightness</string>
+    <string name="super_player_left_and_right">Swipe left and right to fast forward/rewind</string>
+    <string name="super_player_up_and_down_volumn">Swipe up and down to adjust the volume</string>
+    <string name="super_player_move_left_to_see_before">Drag left to watch previous live content</string>
+    <string name="super_player_cache_video_title">Not just audio and video %1d</string>
+    <string name="super_player_tv_screen_auto">Auto</string>
+    <string name="super_player_tv_vod_self">Vod Adaptive</string>
+    <string name="super_player_tv_live_self">Live Adaptive</string>
+    <string name="super_player_save_succeed">Save Succeed !</string>
+    <string name="super_player_reset_succeed">Reset Succeed !</string>
+    <string name="super_player_multi_subtitle_video">Multi SubTitle Video</string>
+    <string name="super_player_multi_sound_track_video">Multi Sound Track Video</string>
+    <string name="tuiplayer_alpha_player">Alpha Player</string>
+    <string name="tuiplayer_input_local_video_path">Input local video path</string>
+    <string name="tuiplayer_call_resolution_list">resolution</string>
+    <string name="tuiplayer_call_function">menu</string>
+    <string name="tuiplayer_call_landscape">fullscreen</string>
+    <string name="tuiplayer_resolution_global">global</string>
+    <string name="tuiplayer_range_hint">0&#8211;1 is from 0 to 1, 1,2,3 is delete by index</string>
+    <string name="tuiplayer_tui_menu">TUI MENU</string>
+    <string name="tuiplayer_tui_data_control">data control</string>
+    <string name="tuiplayer_tui_data_remove">remove</string>
+    <string name="tuiplayer_tui_data_insert">insert</string>
+    <string name="tuiplayer_tui_data_replace">replace</string>
+    <string name="tuiplayer_tui_strategy_control">Settings</string>
+    <string name="tuiplayer_tui_resume_model">resume mode</string>
+    <string name="tuiplayer_tui_loop_model">loop mode</string>
+    <string name="tuiplayer_tui_render_mode">render mode</string>
+    <string name="tuiplayer_tui_sr_mode">superResolution(Vod)</string>
+    <string name="tuiplayer_tui_an_mode">audioNormalization(Vod)</string>
+    <string name="tuiplayer_tui_render_rotation">renderRotation</string>
+    <string name="tuiplayer_tui_mirror">mirror(Vod)</string>
+    <string name="tuiplayer_tui_mute">mute</string>
+    <string name="tuiplayer_tui_click_enter_live">Click to enter the live room</string>
+    <string name="tuiplayer_tui_img_display">Picture Display</string>
+    <string name="tuiplayer_tui_img_display_desc">This is a custom page for displaying images</string>
+
+    <string name="short_video_play_back">Short video playback</string>
+    <string name="short_video_live_title">Live Room Page</string>
+    <string name="short_video_get_data_failed">Failed to request data</string>
+    <string name="short_video_view_more_videos">See more videos up and down</string>
+    <string name="short_video_pause_video">Click to pause video playback</string>
+    <string name="short_video_go_to_list">Swipe left to enter the video list</string>
+    <string name="short_video_move_seeek">Drag the progress bar to quickly view the video</string>
+
+    <string-array name="tuiplayer_resume_mode_array">
+        <item>NONE</item>
+        <item>RESUME_CURRENT</item>
+        <item>RESUME_PLAYED</item>
+    </string-array>
+
+    <string-array name="tuiplayer_loop_mode_array">
+        <item>MODE_ONE_LOOP</item>
+        <item>MODE_LIST_LOOP</item>
+        <item>MODE_NO_LOOP</item>
+    </string-array>
+
+    <string-array name="tuiplayer_render_mode_array">
+        <item>adjustResolution</item>
+        <item>fillView</item>
+    </string-array>
+
+    <string-array name="tuiplayer_sr_mode_array">
+        <item>none</item>
+        <item>ASR</item>
+    </string-array>
+
+    <string-array name="tuiplayer_an_array">
+        <item>off</item>
+        <item>low</item>
+        <item>standard</item>
+        <item>high</item>
+    </string-array>
+
+    <string-array name="tuiplayer_render_rotation_array">
+        <item>0</item>
+        <item>90</item>
+        <item>180</item>
+        <item>270</item>
+    </string-array>
+
+    <string name="tui_short_video_render_view">tuiShortVideoRenderView</string>
+</resources>

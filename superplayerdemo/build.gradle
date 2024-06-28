@@ -1,0 +1,44 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+// 打包目录
+// gradle设置打包配置
+
+dependencies {
+    api 'androidx.appcompat:appcompat:1.0.0'
+    api 'androidx.recyclerview:recyclerview:1.3.2'
+    api 'me.dm7.barcodescanner:zxing:1.8.4'
+    api 'androidx.multidex:multidex:2.0.0'
+    api 'com.google.code.gson:gson:2.3.1'
+    api project(':vodcommon')
+    implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0"
+
+    if (buildWithSource.toBoolean()) {
+        api project(':tuiplayershortvideo')
+    } else {
+        api (name:'tuiplayershortvideo-release', ext:'aar')
+        implementation "androidx.viewpager2:viewpager2:1.1.0-beta02"
+    }
+}

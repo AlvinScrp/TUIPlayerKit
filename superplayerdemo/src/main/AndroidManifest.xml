@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tencent.liteav.demo.player">
+
+    <application>
+        <activity
+            android:name=".demo.shortvideo.TUILandScapeActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize|screenLayout"
+            android:exported="false"
+            android:theme="@style/TUITransBg"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="stateHidden"  />
+        <activity
+            android:name=".demo.shortvideo.TUIShortVideoLiveActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize|screenLayout"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:theme="@style/TUITransBgUnPlugAnim"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".demo.PlayerSettingActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".demo.VideoDownloadListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".demo.SuperPlayerActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize|screenLayout"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:label="@string/superplayer_app_name"
+            android:resizeableActivity="true"
+            android:screenOrientation="portrait"
+            android:supportsPictureInPicture="true"
+            android:taskAffinity=".demo.SuperPlayerActivity"
+            android:theme="@style/UnplugAnimTheme"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="com.tencent.liteav.demo.play.action.float.click" />
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".demo.shortvideo.TUIShortVideoActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize|screenLayout"
+            android:screenOrientation="portrait"
+            android:theme="@style/TUITransBg"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".demo.QRCodeScanActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".demo.VodPlayerActivity"
+            android:screenOrientation="portrait" />
+
+        <receiver
+            android:name=".expand.webdata.reveiver.WebDataReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.tencent.liteav.action.WED_DATA" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

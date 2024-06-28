@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="10dp"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:background="@drawable/tuiplayer_shortvideo_content_bg">
+    <EditText
+        android:id="@+id/roomid"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:singleLine="true"
+        android:background="@drawable/superplayer_input_bg"
+        android:textColor="@android:color/white"
+        android:layout_marginRight="1dp"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:textColorHint="@android:color/white"/>
+</RelativeLayout>
